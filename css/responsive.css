@@ -1,0 +1,336 @@
+@media screen and (min-width: 320px) {
+	.criteria div {
+		height: auto;
+		overflow: hidden;
+	}
+}
+
+@media screen and (min-width: 360px) {
+	.criteria div {
+		height: 87px;
+		overflow: hidden;
+	}
+
+	.criteria {
+		width: 50%;
+		float: left;
+		margin: 0;
+		padding: 15px 35px 20px 35px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	article {
+		clear: both;
+	}
+}
+
+@media screen and (min-width: 464px) {
+	span {
+		font-size: 2.2em;
+	}
+
+	#information input {
+		width: 29%;
+	}
+
+	.slogan {
+		height: auto;
+	}
+
+	aside form div {
+		width: 50%;
+		float: left;
+	}
+
+	aside button {
+		clear: both;
+	}
+
+	footer {
+		clear: both;
+	}
+
+	.menu {
+  		margin: 30px 30px 0 0;
+	}
+
+	.linea1 {
+  		right: 48px;
+  		top: 48px;
+	}
+
+	.linea2 {
+  		right: 48px;
+  		top: 53px;
+	}
+
+	.linea3 {
+  		right: 48px;
+  		top: 58px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	img {
+		width: 32px;
+		height: 32px;
+	}
+
+	.menu-espanso {
+	  	position: absolute;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	span {
+		font-size: 2.3em;
+	}
+
+	#information input {
+		height: 40px;
+	}
+
+	#title h1 {
+		font-size: 3.3em;
+	}
+
+	.slogan p {
+		font-size: 1.2em;
+	}
+
+	.slogan1 {
+		height: auto;
+	}
+
+	.head h1 {
+		font-size: 3em;
+	}
+
+	.head p {
+		font-size: 1.2em;
+	}
+
+	.criteria h3 {
+		font-size: 1.3em;
+	}
+
+	.criteria p {
+		font-size: 1em;
+	}
+
+	article h3 {
+		font-size: 1.2em;
+	}
+
+	article h1 {
+		font-size: 2.5em;
+	}
+
+	aside form div {
+		width: 100%;
+		float: none;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.linee {
+		display: none;
+	}
+
+	nav {
+		visibility: visible;
+		opacity: 1;
+		width: 100%;
+		right: 0;
+		top: 15px;
+		margin: 0 0 1em 1em;
+		background: initial;
+	}
+
+		ul {
+			float: right;
+			width: 70%;
+		}
+
+		li {
+			display: inline-table;
+			padding: 1em;
+		}
+
+			li a {
+				font-size: 14px;
+				color: white;
+			}
+
+			li:hover a {
+				color: #0098e5;
+			}
+}
+
+@media screen and (min-width: 800px) {
+	span {
+		font-size: 2.4em;
+	}
+
+	#title h1 {
+		font-size: 3.4em;
+	}
+
+	.slogan p {
+		font-size: 1.4em;
+	}
+
+	.head p {
+		font-size: 1.4em;
+	}
+
+	.criteria h3 {
+		font-size: 1.4em;
+	}
+
+	.criteria p {
+		font-size: 1.1em;
+	}
+
+	article h3 {
+		font-size: 1.3em;
+	}
+
+	aside form div {
+		width: 50%;
+		float: left;
+	}
+
+	aside button {
+		clear: both;
+	}
+
+	footer {
+		clear: both;
+	}
+
+	nav {
+		top:17px;
+	}
+}
+
+@media screen and (min-width: 980px) {
+	header {
+		padding: 2% 5% 10% 5%;
+	}
+
+	#title {
+		margin-top: 7em;
+	}
+
+	#information input {
+		width: 20%;
+		font-size: 1.2em;
+	}
+
+	button {
+		height: 40px;
+		width: 150px;
+	}
+
+	#title h1 {
+		font-size: 3.5em;
+	}
+
+	.slogan p {
+		font-size: 1.6em;
+	}
+
+	.head p {
+		font-size: 1.6em;
+	}
+
+	.criteria h3 {
+		font-size: 1.5em;
+	}
+
+	.criteria p {
+		font-size: 1.2em;
+	}
+
+	article {
+		padding: 4% 4% 8% 4%;
+	}
+
+		article h3 {
+			font-size: 1.4em;
+		}
+
+		article h1 {
+			font-size: 2.7em;
+		}
+
+	aside form div {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	span {
+		font-size: 2.5em;
+		padding: 0;
+	}
+
+	#information input {
+		height: 50px;
+		font-size: 1.3em;
+	}
+
+	button {
+		height: 50px;
+		width: 170px;
+	}
+
+	#title h1 {
+		font-size: 3.6em;
+	}
+
+	.slogan p {
+		font-size: 1.8em;
+	}
+
+	.head p {
+		font-size: 1.8em;
+	}
+
+	article h3 {
+		font-size: 1.5em;
+	}
+
+	article h1 {
+		font-size: 2.9em;
+	}
+
+	aside form div {
+		width: 50%;
+		float: left;
+	}
+
+	aside button {
+		clear: both;
+	}
+
+	footer {
+		clear: both;
+	}
+
+	nav {
+		top: 0;
+	}
+
+		ul {
+			margin-top: 0;
+			width: 45%;
+		}	
+}
